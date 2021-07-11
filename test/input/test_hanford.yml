@@ -1,0 +1,17 @@
+name: test_hanford
+geom_filename: hanford_data/geom_1x.mat
+bc_filename: hanford_data/bc_1x.mat
+conduct_filename: hanford_data/conduct_log_1x.mat
+mean_radius: 0.1
+seed: 0
+Nruns: 10
+kernel: m52
+std_dev: 1.0
+cor_len: 0.1
+NYobs: 400
+Nuobs: 50
+NYxi: 800
+Nuxi: 200
+Nens: 5000
+gamma_ckli: 1.0e-1
+gamma_map:  1.0e-6
